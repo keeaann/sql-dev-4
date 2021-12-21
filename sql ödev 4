@@ -1,0 +1,5 @@
+select distinct replacement_cost from  film 
+select count (distinct replacement_cost) from film
+select count (distinct title LIKE 'T%') AND rating='G' from film
+select * from country where len(country)=5
+select dintinct (count city LIKE ='%R') FROM CİTY OR select distinct (count city LIKE='%r')
